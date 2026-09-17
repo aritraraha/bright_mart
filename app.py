@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load the saved model
-model = pickle.load(open('linear_reg.sav', 'rb'))
+model = joblib.load(open('linear_reg.sav', 'rb'))
 
 st.title('Sales Prediction App')
 
